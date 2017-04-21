@@ -7,7 +7,6 @@ pipeline:
         template: |
           [{{ repo.name }}/{{ build.branch }} :: #{{ build.number }}]: Starting!
 
-
   
     buildTest:
         image: CHANGE
@@ -30,6 +29,27 @@ pipeline:
         when:
           event: push
 
+  
+    deployStage:
+        image: quay.io/golfnow/kube-deploy
+        pull: true
+        targets: 
+          -
+          -
+          -
+          -
+          -phx-api-simple-webhook-g1-customer
+          -phx-api-simple-webhook-g1-order-item
+          -phx-api-simple-webhook-g1-orders
+          -phx-api-simple-webhook-g1-res
+        type: deployment
+        tag: quay.io/golfnow/repository-name:1.0.0.${DRONE_BUILD_NUMBER}
+        insecure: true
+        useEnvironment: qa
+        functions: 
+          -annotate
+        when:
+          event: push
 
   
     deployProd:
@@ -48,26 +68,6 @@ pipeline:
           -annotate
         when:
           event: tag
-
-
-  
-    deployProd:
-        image: quay.io/golfnow/kube-deploy
-        pull: true
-        targets: 
-          -repository-name-g1-customer
-          -repository-name-g1-order-item
-          -repository-name-g1-orders
-          -repository-name-g1-res
-        type: deployment
-        tag: quay.io/golfnow/repository-name:1.0.0.${DRONE_BUILD_NUMBER}
-        insecure: true
-        useEnvironment: prd
-        functions: 
-          -annotate
-        when:
-          event: tag
-
 
   
     informEnd:
@@ -77,5 +77,4 @@ pipeline:
           [{{ repo.name }}/{{ build.branch }} :: #{{ build.number }}]: {{ build.status }} after {{since build.started}}
         when:
           status: [ success, failure ]
-
 
