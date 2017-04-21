@@ -1,81 +1,81 @@
+
 pipeline:
+  
     informStart:
         image: plugins/slack
         channel: ci
         template: |
-            [{{ repo.name }}/{{ build.branch }} :: #{{ build.number }}]: Starting!
+          [{{ repo.name }}/{{ build.branch }} :: #{{ build.number }}]: Starting!
 
+
+  
     buildTest:
-        image: quay.io/golfnow/node:6.9.2-20161213.0
+        image: CHANGE
         commands:
-            - npm install
-            - ./node_modules/lab/bin/lab -a code -t 100 --lint
+          -npm install
+          -./node_modules/lab/bin/lab -a code -t 100 --lint
         when:
-            event: push
+          event: push
 
+  
     dockerize:
         image: quay.io/golfnow/drone-docker
         privileged: true
         registry: quay.io
-        repo: quay.io/golfnow/phx-api-simple-webhook
-        tags:
-            - 1.0.0.${DRONE_BUILD_NUMBER}
-        build_args:
-            - NPM_TOKEN={NPM_TOKEN}
+        repo: repository-name
+        build_args: 
+          -NPM_TOKEN={NPM_TOKEN}
+        tags: 
+          -1.0.0.${DRONE_BUILD_NUMBER}
         when:
-            event: push
+          event: push
 
-    dockerize:
-        image: quay.io/golfnow/drone-docker
-        privileged: true
-        registry: quay.io
-        repo: quay.io/golfnow/phx-api-simple-webhook
-        tags:
-            - 1.0.0.${DRONE_BUILD_NUMBER}
-            - production
-        build_args:
-            - NPM_TOKEN={NPM_TOKEN}
-        when:
-            event: tag
 
-    deployStage:
-        image: quay.io/golfnow/kube-deploy
-        pull: true
-        targets:
-            - phx-api-simple-webhook-g1-customer
-            - phx-api-simple-webhook-g1-order-item
-            - phx-api-simple-webhook-g1-orders
-            - phx-api-simple-webhook-g1-res
-        type: deployment
-        tag: quay.io/golfnow/phx-api-simple-webhook:1.0.0.${DRONE_BUILD_NUMBER}
-        insecure: true
-        use_environment: qa
-        functions:
-            - annotate
-        when:
-            event: push
-
+  
     deployProd:
         image: quay.io/golfnow/kube-deploy
         pull: true
-        targets:
-            - phx-api-simple-webhook-g1-customer
-            - phx-api-simple-webhook-g1-order-item
-            - phx-api-simple-webhook-g1-orders
-            - phx-api-simple-webhook-g1-res
+        targets: 
+          -repository-name-g1-customer
+          -repository-name-g1-order-item
+          -repository-name-g1-orders
+          -repository-name-g1-res
         type: deployment
-        tag: quay.io/golfnow/phx-api-simple-webhook:1.0.0.${DRONE_BUILD_NUMBER}
+        tag: quay.io/golfnow/repository-name:1.0.0.${DRONE_BUILD_NUMBER}
         insecure: true
-        use_environment: prd
-        functions:
-            - annotate
+        useEnvironment: prd
+        functions: 
+          -annotate
         when:
-            event: tag
+          event: tag
 
+
+  
+    deployProd:
+        image: quay.io/golfnow/kube-deploy
+        pull: true
+        targets: 
+          -repository-name-g1-customer
+          -repository-name-g1-order-item
+          -repository-name-g1-orders
+          -repository-name-g1-res
+        type: deployment
+        tag: quay.io/golfnow/repository-name:1.0.0.${DRONE_BUILD_NUMBER}
+        insecure: true
+        useEnvironment: prd
+        functions: 
+          -annotate
+        when:
+          event: tag
+
+
+  
     informEnd:
         image: plugins/slack
         channel: ci
         template: |
-            [{{ repo.name }}/{{ build.branch }} :: #{{ build.number }}]: {{ build.status }} after {{since build.started}}
+          [{{ repo.name }}/{{ build.branch }} :: #{{ build.number }}]: {{ build.status }} after {{since build.started}}
         when:
-            status: [ success, failure ]
+          status: [ success, failure ]
+
+
