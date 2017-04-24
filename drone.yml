@@ -34,14 +34,10 @@ pipeline:
         image: quay.io/golfnow/kube-deploy
         pull: true
         targets: 
-          -
-          -
-          -
-          -
-          -phx-api-simple-webhook-g1-customer
-          -phx-api-simple-webhook-g1-order-item
-          -phx-api-simple-webhook-g1-orders
-          -phx-api-simple-webhook-g1-res
+          -repository-name-g1-customer
+          -repository-name-g1-order-item
+          -repository-name-g1-orders
+          -repository-name-g1-res
         type: deployment
         tag: quay.io/golfnow/repository-name:1.0.0.${DRONE_BUILD_NUMBER}
         insecure: true
