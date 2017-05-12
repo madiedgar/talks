@@ -12,12 +12,12 @@ Discover ways to add exponential value by strategically selecting the right alum
 I **love** the hacker community, and just because I graduated doesn’t mean that love has changed. However, the ways in which I can bring value to a hackathon _has_. After graduation, I became heavily involved with Florida Hackers. I was fortunate enough not only to attend numerous hackathons, but to lead workshops, mentor hackers, help organize, judge demos and even hack a little. I realized the amount of influence and value an alumna can bring, and would love the opportunity to teach others.
  
 **Workshop Logistics**: 
-- Who Are Alumni?:
+- _Who Are Alumni?_:
     - People who have led that school’s specific hackathon/club before
     - People who have led a hackathon/club before (hackcon community)
     - People in the audience leading/organizing one now
 
-- Extra Resources for attendees (will be available with Slide Deck):
+- _Extra Resources for attendees (will be available with Slide Deck)_:
     - Sample emails/message templates for organizers to reach out to alumni
     - Hackcon alumni community 
       - (desired/eager to build) Contact Repository with alumni that are wanting to be engaged again
