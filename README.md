@@ -13,7 +13,6 @@ I'm trying to be better about this and make all my presentations public. They ha
 | 2017 | [](https://github.com/madipfaff/Slide-Decks/tree/master/2017/UTAustin) | [UT Austin](https://www.utexas.edu/) | Austin, TX |
 | 2017 | [True Grit](https://github.com/madipfaff/Slide-Decks/tree/master/2017/ATribeCalledYes) | [A Tribe Called Yes Podcast](http://atribecalledyes.com/) | Austin, TX |
 | 2017 | [Artificial Intelligence / Product Management](https://github.com/madipfaff/Slide-Decks/tree/master/2017/BlackstoneLaunchpad) | [Blackstone Launchpad](https://ugs.utexas.edu/blackstone-launchpad) | Austin, TX |
-| Oct. 10, 2016 | [Floatie](https://github.com/madipfaff/Slide-Decks/tree/master/2016/Floatie) | [Floatie Conference](https://www.hackathon.com/event/floatie---a-tech-community-conference-26785829136) |
- Orlando, FL |
+| Oct. 10, 2016 | [Floatie](https://github.com/madipfaff/Slide-Decks/tree/master/2016/Floatie) | [Floatie Conference](https://www.hackathon.com/event/floatie---a-tech-community-conference-26785829136) | Orlando, FL |
 | 2016 | [](https://github.com/madipfaff/Slide-Decks/tree/master/2016/HackNC) | [HackNC](http://hacknc.com/) | Chapel Hill, NC |
 | 2016 | [](https://github.com/madipfaff/Slide-Decks/tree/master/2016/PearlHacks) | [Pearl Hacks](http://pearlhacks.com/) | Chapel Hill, NC |
