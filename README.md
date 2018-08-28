@@ -3,9 +3,11 @@ I'm trying to be better about this and make all my presentations public. They ha
 
 | Date | Title of Talk | Organization | Location |
 |------|---------------|--------------|----------|
-| 2018 | [Coding for Girls](https://github.com/madipfaff/Talks-And-Decks/tree/master/2018/LovejoyISD) | [LovejoyISD](https://www.lovejoyisd.net/) | Lucas, TX |
+| Jul. 24, 2018 | [Coding for Girls Course](https://github.com/madipfaff/Talks-And-Decks/tree/master/2018/LovejoyISD) | [LovejoyISD](https://www.lovejoyisd.net/) | Lucas, TX |
+| Jul. 24, 2018 | STEM Education Panel | [LovejoyISD](https://www.lovejoyisd.net/) | Lucas, TX |
 | 2018 | [Introduction to Artificial Intelligence](https://github.com/madipfaff/Talks-And-Decks/tree/master/2018/NBCUTechWomen) | NBCU TECHWomen | London, UK |
 | 2018 | [Mastering Transitions](https://github.com/madipfaff/Talks-And-Decks/tree/master/2018/PearlHacks) | [Pearl Hacks](http://pearlhacks.com/) | Chapel Hill, NC |
+| 2017 | Artificial Intelligence @ Comcast NBCUniversal Panel | Comcast NBCUniversal TECHWomen Conference | Philadelphia, PA |
 | 2017 | [](https://github.com/madipfaff/Talks-And-Decks/tree/master/2017/SwampHacks) | [SwampHacks](http://swamphacks.com/) | Gainesville, FL |
 | 2017 | [](https://github.com/madipfaff/Talks-And-Decks/tree/master/2017/PearlHacks) | [Pearl Hacks](http://pearlhacks.com/) | Chapel Hill, NC |
 | 2017 | [](https://github.com/madipfaff/Talks-And-Decks/tree/master/2017/MangoHacks) | [MangoHacks](http://mangohacks.com/) | Miami, FL |
