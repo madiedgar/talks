@@ -3,6 +3,7 @@ I'm trying to be better about this and make all my presentations public. They ha
 
 | Date | Title of Talk | Organization | Location |
 |------|---------------|--------------|----------|
+| Sept. 27, 2018 | [Crash Course: Coding](https://github.com/madipfaff/Talks-And-Decks/tree/master/2018/CocaColaScholars) | [Coca Cola Scholars Leadership Summit](https://summit.coca-colascholarsfoundation.org/) | Atlanta, GA |
 | Jul. 24, 2018 | [Coding for Girls Course](https://github.com/madipfaff/Talks-And-Decks/tree/master/2018/LovejoyISD) | [LovejoyISD](https://www.lovejoyisd.net/) | Lucas, TX |
 | Jul. 24, 2018 | STEM Education Panel | [LovejoyISD](https://www.lovejoyisd.net/) | Lucas, TX |
 | 2018 | [Introduction to Artificial Intelligence](https://github.com/madipfaff/Talks-And-Decks/tree/master/2018/NBCUTechWomen) | NBCU TECHWomen | London, UK |
