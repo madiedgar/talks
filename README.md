@@ -1,5 +1,5 @@
 # Talks and Slide Decks
-I'm trying to be better about this and make all my presentations public. They have definitely progressed throughout the years.
+I'm trying to be better about this and make all my presentations public. They have definitely progressed throughout the years (hopefully).
 
 | Date | Title of Talk | Organization | Location |
 |------|---------------|--------------|----------|
