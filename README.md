@@ -3,6 +3,7 @@ I'm trying to be better about this and make all my presentations public. They ha
 
 | Date | Title of Talk | Organization | Location |
 |------|---------------|--------------|----------|
+| Feb. 17, 2019 | [Hey Alexa, Let Me Teach You Something New](https://github.com/madipfaff/talks-and-slide-decks/blob/master/2019/PearlHacks/PearlHacks-AlexaWorkshop.pdf) | [Pearl Hacks](https://pearlhacks.com) | Chapel Hill, NC |
 | Sept. 27, 2018 | [Rosetta Code](https://github.com/madipfaff/talks-and-slide-decks/blob/master/2018/CocaColaScholars/Legesher-RosettaCode.pdf) | [Coca Cola Scholars Leadership Summit](https://summit.coca-colascholarsfoundation.org/) | Atlanta, GA |
 | Jul. 24, 2018 | [Coding for Girls Course](https://github.com/madipfaff/Talks-And-Decks/tree/master/2018/LovejoyISD) | [LovejoyISD](https://www.lovejoyisd.net/) | Lucas, TX |
 | Jul. 24, 2018 | STEM Education Panel | [LovejoyISD](https://www.lovejoyisd.net/) | Lucas, TX |
