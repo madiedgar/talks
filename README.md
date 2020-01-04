@@ -3,6 +3,7 @@ Still in the process of making all the presentations public. Enjoy!
 
 | Date | Title of Talk | Organization | Location |
 |------|---------------|--------------|----------|
+| Feb. 2020 | [TBD](https://github.com/madipfaff/talks-and-slide-decks/blob/master/2020) | [Coca-Cola Scholars Podcast](https://www.coca-colascholarsfoundation.org/apply/) | Atlanta, GA |
 | Jan. 5, 2020 | [Translating Success](https://github.com/madipfaff/talks-and-slide-decks/blob/master/2020) | [LovejoyISD Academic Excellence Awards Banquet](https://lhs.lovejoyisd.net/) | Lucas, TX |
 | Feb. 17, 2019 | [Hey Alexa, Let Me Teach You Something New](https://github.com/madipfaff/talks-and-slide-decks/blob/master/2019/PearlHacks/PearlHacks-AlexaWorkshop.pdf) | [Pearl Hacks](https://pearlhacks.com) | Chapel Hill, NC |
 | Sept. 27, 2018 | [Rosetta Code](https://github.com/madipfaff/talks-and-slide-decks/blob/master/2018/CocaColaScholars/Legesher-RosettaCode.pdf) | [Coca Cola Scholars Leadership Summit](https://summit.coca-colascholarsfoundation.org/) | Atlanta, GA |
