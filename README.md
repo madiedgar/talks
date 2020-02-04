@@ -1,5 +1,5 @@
 # Talks (and their slide decks)
-Still in the process of making all the presentations public. Enjoy!
+
 
 | Date | Title of Talk | Organization | Location |
 |------|---------------|--------------|----------|
